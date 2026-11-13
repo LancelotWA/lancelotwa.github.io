@@ -1,0 +1,6 @@
+# Social links shown on the About page (order = display order).
+# Docs: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/CV_Lancelot_WATELLE.pdf
+email: TODO_your.email@example.com # TODO: your contact email (old portfolio used lancelot.watelle@edu.devinci.fr)
+github_username: lancelotwa
+linkedin_username: lancelot-watelle-203476261

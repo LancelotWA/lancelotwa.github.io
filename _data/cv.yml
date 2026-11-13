@@ -1,0 +1,73 @@
+# CV data (rendercv format used by al-folio). TODO items are marked inline.
+cv:
+  name: Lancelot Watelle
+  label: Quant Analyst — Financial Engineering student
+  email: TODO_your.email@example.com # TODO
+  location: Paris area, France # TODO: confirm
+  image: ""
+  summary: Financial engineering student at ESILV specialising in quantitative finance (derivatives pricing, statistical arbitrage, risk).
+
+  social_networks:
+    - network: GitHub
+      username: lancelotwa
+    - network: LinkedIn
+      username: lancelot-watelle-203476261
+
+  sections:
+    Education:
+      - institution: ESILV — École Supérieure d'Ingénieurs Léonard de Vinci
+        location: Paris La Défense, France
+        url: https://www.esilv.fr/
+        area: Financial Engineering — Quantitative Finance (apprenticeship track)
+        studyType: Engineering degree (MSc level)
+        start_date: 2025
+        end_date: 2028
+        courses: "Stochastic calculus, Derivatives & options, Quantitative finance, Risk management, Portfolio management, Financial markets, Machine learning for finance"
+
+      - institution: ESILV — Integrated preparatory cycle
+        location: Paris La Défense, France
+        area: Mathematics, Computer Science, Engineering
+        studyType: Preparatory cycle
+        start_date: 2023
+        end_date: 2025
+        courses: "Mathematical analysis, Linear algebra, Probability & statistics, Algorithms, OOP, SQL databases"
+        score: "" # TODO: optional GPA / ranking
+
+    Experience:
+      - company: Crédit Agricole # TODO: exact entity (e.g. Crédit Agricole CIB / regional bank)
+        position: Credit Risk Tooling Intern
+        location: TODO
+        start_date: 2025-06
+        end_date: 2025-09
+        summary: Modernisation of credit-risk monitoring processes under Basel IV / IFRS 9 requirements.
+        highlights:
+          - Migrated Access workflows to SAS to automate the monthly credit-risk monitoring databases.
+          - Built dynamic dashboards for credit data analysis and reporting.
+          - Automated credit-risk limit tracking and implemented data quality / consistency controls.
+          - Wrote full technical documentation of the delivered solutions.
+
+    Projects:
+      - name: Pair Trading on the S&P 500
+        summary: Cointegration-based strategy — Sharpe 1.35, 23.76 % annualised return, −3.43 % max drawdown (3-year backtests).
+      - name: Option Pricing Library
+        summary: Black–Scholes, Monte Carlo, Greeks, Asian and barrier options.
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python (NumPy, pandas, SciPy, statsmodels), C#, SQL, SAS, Excel/VBA, C++ (TODO: confirm level)"
+      - name: Quantitative finance
+        icon: fa-solid fa-chart-line
+        keywords: "Derivatives pricing, Monte Carlo, Greeks, Cointegration, Backtesting, Time series, Risk (Basel IV, IFRS 9)"
+      - name: Mathematics
+        icon: fa-solid fa-square-root-variable
+        keywords: "Stochastic calculus, Probability & statistics, Linear algebra, Optimisation"
+      - name: Market tools
+        icon: fa-solid fa-toolbox
+        keywords: "TODO: Bloomberg / Refinitiv / QuantLib / Git ..."
+
+    Languages:
+      - name: French
+        summary: "Native"
+      - name: English
+        summary: "TODO: level (e.g. C1, TOEIC score)"
